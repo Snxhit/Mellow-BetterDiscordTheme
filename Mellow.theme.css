@@ -7,73 +7,75 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Rampart+One&display=swap');
-
-body{
-font-family: Acme
-}
 :root {
---main-theme-color: #94FFCE;
---theme-transparency: #00000066;
---theme-background-image: url('https://i.imgur.com/t4J7gHy.gif');
---home-icon-image: url('https://i.imgur.com/BpQhHs2.jpeg');
---home-icon-image-zoom: 100%;
---home-icon-image-position: center;
---server-listing-width: 72px;
---font-size: 105%;
---mention-color: #5dfafa1e;
---mention-sider: rgb(248, 167, 100);
---mention-hover-color: #90f7f74d;
---category-hover-color: rgb(0, 155, 245);
---unread-server-animation: rainbow;
---video-screen-button-background-color: #c8c8c833;
---video-screen-button-foreground-color: #ffffffff;
---video-screen-button-background-hovor-color: #c8c8c866;
---video-screen-button-foreground-hovor-color: #ffffffff;
---member-listing-role-color: #43b581ff;
---small-user-popout-background-image: url('https://i.imgur.com/jLVQ2EY.gif');
---small-user-popout-background-transparency: #00000099;
---small-user-popout-background-image-position: center;
---big-user-popout-background-image: url('https://i.pinimg.com/736x/d3/4e/83/d34e83b148137f950136a6a1dde10c04.jpg');
---big-user-popout-background-transparency: #00000099;
---big-user-popout-background-image-position: center;
---code-markup-background-color: #07070799;
---code-markup-border: 2px solid transparent;
---message-box-transparency: #00000099;
---embed-background-transparency: #00000099;
---message-hover-buttons-background: #c8c8c81a;
---context-menu-transparency: #0f0f0fcc;
---add-discover-icon-transparency: #c8c8c826;
---add-discover-icon-color: #43b581;
---channel-limit-count-color: #43b581;
---channel-limit-background-left: #c8c8c81a;
---channel-limit-background-right: #c8c8c833;
---scrollbar-color: #c8c8c833;
---unread-message-divider-color: #f04747;
---unread-message-divider-font-color: #ffffff;
---new-messages-bar-background-color: #7289da;
---new-messages-bar-font-color: #ffffff;
---emoji-menu-background-color: #3d181875;
---emoji-menu-sider-background-color: #521515;
---emoji-menu-server-header-background-color: #740c0c77;
---emoji-menu-bottom-bar-background-color: #810e0e57;
---emoji-menu-search-bar-background-color: #9e090967;
---message-search-menu-background-color: #000000cc;
---message-search-container-background-color: #00000099;
---message-search-result-background-color: #c8c8c80d;
---text-voice-channel-color: #8e9297ff;
---text-voice-channel-hover-color: #dcddde;
---text-voice-channel-selected-text-color: #ffffff;
---unread-text-channel-color: #ffffff;
---unread-text-channel-bubble-color: #ffffff;
---folder-background-color: #2f3136;
---expanded-folder-background-color: #cbecff5e;
---reaction-emoji-background-color: #00000000;
---reaction-emoji-border-color: 2px solid transparent;
---reaction-emoji-hover-background-color: #ffffff1a;
---reaction-emoji-hover-border-color: #ffffff33;
+    --main-theme-color: #94FFCE;
+    --theme-transparency: #00000066;
+    --theme-background-image: url('https://i.imgur.com/t4J7gHy.gif');
+    --home-icon-image: url('https://i.imgur.com/BpQhHs2.jpeg');
+    --home-icon-image-zoom: 100%;
+    --home-icon-image-position: center;
+    --server-listing-width: 72px;
+    --font-size: 105%;
+    --font: Acme;
+    --mention-color: #5dfafa1e;
+    --mention-sider: rgb(248, 167, 100);
+    --mention-hover-color: #90f7f74d;
+    --category-hover-color: rgb(0, 155, 245);
+    --unread-server-animation: rainbow;
+    --video-screen-button-background-color: #c8c8c833;
+    --video-screen-button-foreground-color: #ffffffff;
+    --video-screen-button-background-hovor-color: #c8c8c866;
+    --video-screen-button-foreground-hovor-color: #ffffffff;
+    --member-listing-role-color: #43b581ff;
+    --small-user-popout-background-image: url('https://i.imgur.com/jLVQ2EY.gif');
+    --small-user-popout-background-transparency: #00000099;
+    --small-user-popout-background-image-position: center;
+    --big-user-popout-background-image: url('https://i.pinimg.com/736x/d3/4e/83/d34e83b148137f950136a6a1dde10c04.jpg');
+    --big-user-popout-background-transparency: #00000099;
+    --big-user-popout-background-image-position: center;
+    --code-markup-background-color: #07070799;
+    --code-markup-border: 2px solid transparent;
+    --message-box-transparency: #00000099;
+    --embed-background-transparency: #00000099;
+    --message-hover-buttons-background: #c8c8c81a;
+    --context-menu-transparency: #0f0f0fcc;
+    --add-discover-icon-transparency: #c8c8c826;
+    --add-discover-icon-color: #43b581;
+    --channel-limit-count-color: #43b581;
+    --channel-limit-background-left: #c8c8c81a;
+    --channel-limit-background-right: #c8c8c833;
+    --scrollbar-color: #c8c8c833;
+    --unread-message-divider-color: #f04747;
+    --unread-message-divider-font-color: #ffffff;
+    --new-messages-bar-background-color: #7289da;
+    --new-messages-bar-font-color: #ffffff;
+    --emoji-menu-background-color: #3d181875;
+    --emoji-menu-sider-background-color: #521515;
+    --emoji-menu-server-header-background-color: #740c0c77;
+    --emoji-menu-bottom-bar-background-color: #810e0e57;
+    --emoji-menu-search-bar-background-color: #9e090967;
+    --message-search-menu-background-color: #000000cc;
+    --message-search-container-background-color: #00000099;
+    --message-search-result-background-color: #c8c8c80d;
+    --text-voice-channel-color: #8e9297ff;
+    --text-voice-channel-hover-color: #dcddde;
+    --text-voice-channel-selected-text-color: #ffffff;
+    --unread-text-channel-color: #ffffff;
+    --unread-text-channel-bubble-color: #ffffff;
+    --folder-background-color: #2f3136;
+    --expanded-folder-background-color: #cbecff5e;
+    --reaction-emoji-background-color: #00000000;
+    --reaction-emoji-border-color: 2px solid transparent;
+    --reaction-emoji-hover-background-color: #ffffff1a;
+    --reaction-emoji-hover-border-color: #ffffff33;
 }
+
 
 /*build file starts here*/
+
+body {
+    font-family: var(--font);
+}
 
 .appMount-3lHmkl {
     background-image: var(--theme-background-image);
