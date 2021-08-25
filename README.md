@@ -2,6 +2,8 @@
 
 **A relaxing and comforting theme made by Flcooo The Noobist__#1234. For any customizations or theme requests.**
 
+![image](https://user-images.githubusercontent.com/74500652/130725336-fb3d0d44-f1e2-429c-bba7-aad2ad84c04d.png)
+
 ## Info
 
 ##### ✮ A simple Better Discord theme with transparent background.
